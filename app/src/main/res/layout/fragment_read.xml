@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2lab.studyone_12.readFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffFFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/read_article"
+            android:layout_width="968dp"
+            android:layout_height="427dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFD1E9E9"
+            android:maxLines="14"
+            android:scrollbars="vertical"
+            android:textSize="30sp"
+            android:layout_weight="0.42">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="977dp"
+            android:layout_height="73dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/hint_summary"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="0.31"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:text="中文摘要"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/hint_vocabulary"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.34"
+
+                android:background="@drawable/buttonshape"
+
+
+                android:text="單字查詢"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/hint_image"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:adjustViewBounds="false"
+
+                android:background="@drawable/buttonshape"
+                android:text="文章圖片"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

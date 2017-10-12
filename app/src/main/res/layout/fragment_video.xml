@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2lab.studyone_12.videoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="948dp"
+            android:layout_height="443dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.38" />
+
+        <LinearLayout
+            android:layout_width="953dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_play"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <ImageButton
+                android:id="@+id/button_pause"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="875dp"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

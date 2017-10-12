@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_read1"
+            android:title="閱讀文章"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <item
+            android:id="@+id/nav_video1"
+            android:title="動畫影片"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <item
+            android:id="@+id/nav_exam1"
+            android:title="測驗"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </group>
+
+</menu>
